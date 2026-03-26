@@ -12,6 +12,6 @@ app.get('/slow',(req,res) => {
     heavyTask();
     res.send('Slow response');
 });
-app.listen(PORT => {
-    console.log(`Server running on ${PORT}`)
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
 });
