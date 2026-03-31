@@ -1,0 +1,23 @@
+{
+  "name": "backend-projects",
+  "version": "1.0.0",
+  "description": "Some basic next.js projects",
+  "homepage": "https://github.com/pheetomilechi/Backend-Projects#readme",
+  "bugs": {
+    "url": "https://github.com/pheetomilechi/Backend-Projects/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pheetomilechi/Backend-Projects.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
